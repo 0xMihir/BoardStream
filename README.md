@@ -1,4 +1,4 @@
 # BoardStream
-Purdue Hello World '22 Hackathon 
+Purdue Hello World '22 Hackathon <br />
 BoardStream is an application that live streams a whiteboard for enhanced viewability in classes. The area of the whiteboard between four placemarkers is captured (cropping out any area outside the rectangle), regardless of positioning of the camera, which greatly improves ease of use. This feature utilizes the OpenCV library in C++, and connects to the Flask server. The application also allows for students to capture screenshots of the writing on the whiteboard for use when external images enter the frame of view. The UI was built using Javascript’s Svelte framework for optimal user and developer readability.
 Some future improvements we plan to make are to automatically capture the screen the frame before an external image enters the frame of view or prior to the board being erased. In addition, integrating an OCR program that converts writing on the board to text could further enhance legibility.
